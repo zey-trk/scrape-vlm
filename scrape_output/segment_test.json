@@ -1,0 +1,139 @@
+{
+  "url": "https://tombankhadi.com/hadi-ozel-bankacilik/ozel-bankacilik-segmentlerimiz",
+  "instruction": "Sayfadaki kampanyaları, segment kriterlerini ve her segment için avantajları JSON formatında çıkar",
+  "timestamp": "2026-01-29T00:55:56.791030",
+  "structured_data": {
+    "segment_kriterleri": [
+      {
+        "segment": "Özel Bankacılık Elite",
+        "birikim_tutari": "2.5 Milyon TL ile 7.5 Milyon TL arasında"
+      },
+      {
+        "segment": "Özel Bankacılık Elite Plus",
+        "birikim_tutari": "7.5 Milyon TL ile 15 Milyon TL arasında"
+      },
+      {
+        "segment": "Özel Bankacılık Prestige",
+        "birikim_tutari": "15 Milyon TL ve üzerinde"
+      }
+    ],
+    "segment_avantajlari": {
+      "Özel Bankacılık Elite": {
+        "ayricaliklar": [
+          "Özel Müşteri Temsilcisi",
+          "Döviz ve Altın'da Tek Kur"
+        ],
+        "kampanyalar": [
+          {
+            "kampanya_adi": "Restoran Kampanyası",
+            "iade_orani": "%12,5",
+            "iade_tutari": "Günde 500 TL, Ayda 5.000 TL"
+          },
+          {
+            "kampanya_adi": "Uçak Bileti Kampanyası",
+            "iade_orani": "%12,5",
+            "iade_tutari": "Günde 500 TL, Ayda 1.750 TL"
+          },
+          {
+            "kampanya_adi": "Otopark Kampanyası",
+            "iade_orani": "%50",
+            "iade_tutari": "Günde 500 TL, Ayda 1.500 TL"
+          }
+        ]
+      },
+      "Özel Bankacılık Elite Plus": {
+        "ayricaliklar": [
+          "Özel Müşteri Temsilcisi",
+          "Döviz ve Altın'da Tek Kur"
+        ],
+        "kampanyalar": [
+          {
+            "kampanya_adi": "Restoran Kampanyası",
+            "iade_orani": "%17,5",
+            "iade_tutari": "Günde 750 TL, Ayda 10.000 TL"
+          },
+          {
+            "kampanya_adi": "Uçak Bileti Kampanyası",
+            "iade_orani": "%17,5",
+            "iade_tutari": "Günde 750 TL, Ayda 3.500 TL"
+          },
+          {
+            "kampanya_adi": "Otopark Kampanyası",
+            "iade_orani": "%50",
+            "iade_tutari": "Günde 500 TL, Ayda 1.500 TL"
+          }
+        ]
+      },
+      "Özel Bankacılık Prestige": {
+        "ayricaliklar": [
+          "Özel Müşteri Temsilcisi",
+          "Döviz ve Altın'da Tek Kur"
+        ],
+        "kampanyalar": [
+          {
+            "kampanya_adi": "Restoran Kampanyası",
+            "iade_orani": "%22,5",
+            "iade_tutari": "Günde 1.250 TL, Ayda 10.000 TL"
+          },
+          {
+            "kampanya_adi": "Uçak Bileti Kampanyası",
+            "iade_orani": "%22,5",
+            "iade_tutari": "Günde 1.250 TL, Ayda 3.500 TL"
+          },
+          {
+            "kampanya_adi": "Otopark Kampanyası",
+            "iade_orani": "%50",
+            "iade_tutari": "Günde 500 TL, Ayda 1.500 TL"
+          }
+        ]
+      }
+    }
+  },
+  "raw_response": "{\n  \"segment_kriterleri\": [\n    {\n      \"segment\": \"Özel Bankacılık Elite\",\n      \"birikim_tutari\": \"2.5 Milyon TL ile 7.5 Milyon TL arasında\"\n    },\n    {\n      \"segment\": \"Özel Bankacılık Elite Plus\",\n      \"birikim_tutari\": \"7.5 Milyon TL ile 15 Milyon TL arasında\"\n    },\n    {\n      \"segment\": \"Özel Bankacılık Prestige\",\n      \"birikim_tutari\": \"15 Milyon TL ve üzerinde\"\n    }\n  ],\n  \"segment_avantajlari\": {\n    \"Özel Bankacılık Elite\": {\n      \"ayricaliklar\": [\n        \"Özel Müşteri Temsilcisi\",\n        \"Döviz ve Altın'da Tek Kur\"\n      ],\n      \"kampanyalar\": [\n        {\n          \"kampanya_adi\": \"Restoran Kampanyası\",\n          \"iade_orani\": \"%12,5\",\n          \"iade_tutari\": \"Günde 500 TL, Ayda 5.000 TL\"\n        },\n        {\n          \"kampanya_adi\": \"Uçak Bileti Kampanyası\",\n          \"iade_orani\": \"%12,5\",\n          \"iade_tutari\": \"Günde 500 TL, Ayda 1.750 TL\"\n        },\n        {\n          \"kampanya_adi\": \"Otopark Kampanyası\",\n          \"iade_orani\": \"%50\",\n          \"iade_tutari\": \"Günde 500 TL, Ayda 1.500 TL\"\n        }\n      ]\n    },\n    \"Özel Bankacılık Elite Plus\": {\n      \"ayricaliklar\": [\n        \"Özel Müşteri Temsilcisi\",\n        \"Döviz ve Altın'da Tek Kur\"\n      ],\n      \"kampanyalar\": [\n        {\n          \"kampanya_adi\": \"Restoran Kampanyası\",\n          \"iade_orani\": \"%17,5\",\n          \"iade_tutari\": \"Günde 750 TL, Ayda 10.000 TL\"\n        },\n        {\n          \"kampanya_adi\": \"Uçak Bileti Kampanyası\",\n          \"iade_orani\": \"%17,5\",\n          \"iade_tutari\": \"Günde 750 TL, Ayda 3.500 TL\"\n        },\n        {\n          \"kampanya_adi\": \"Otopark Kampanyası\",\n          \"iade_orani\": \"%50\",\n          \"iade_tutari\": \"Günde 500 TL, Ayda 1.500 TL\"\n        }\n      ]\n    },\n    \"Özel Bankacılık Prestige\": {\n      \"ayricaliklar\": [\n        \"Özel Müşteri Temsilcisi\",\n        \"Döviz ve Altın'da Tek Kur\"\n      ],\n      \"kampanyalar\": [\n        {\n          \"kampanya_adi\": \"Restoran Kampanyası\",\n          \"iade_orani\": \"%22,5\",\n          \"iade_tutari\": \"Günde 1.250 TL, Ayda 10.000 TL\"\n        },\n        {\n          \"kampanya_adi\": \"Uçak Bileti Kampanyası\",\n          \"iade_orani\": \"%22,5\",\n          \"iade_tutari\": \"Günde 1.250 TL, Ayda 3.500 TL\"\n        },\n        {\n          \"kampanya_adi\": \"Otopark Kampanyası\",\n          \"iade_orani\": \"%50\",\n          \"iade_tutari\": \"Günde 500 TL, Ayda 1.500 TL\"\n        }\n      ]\n    }\n  }\n}",
+  "usage": {
+    "prompt_tokens": 5538,
+    "completion_tokens": 883,
+    "total_tokens": 6421,
+    "cost": 0.00199463,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 7,
+      "audio_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00199463,
+      "upstream_inference_prompt_cost": 0.00121759,
+      "upstream_inference_completions_cost": 0.00077704
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "chunks": [
+    {
+      "title": "segment_kriterleri #1",
+      "category": "segment_kriterleri",
+      "content": "# segment_kriterleri #1\n\n- Segment: Özel Bankacılık Elite\n- Birikim Tutari: 2.5 Milyon TL ile 7.5 Milyon TL arasında",
+      "source_url": "https://tombankhadi.com/hadi-ozel-bankacilik/ozel-bankacilik-segmentlerimiz"
+    },
+    {
+      "title": "segment_kriterleri #2",
+      "category": "segment_kriterleri",
+      "content": "# segment_kriterleri #2\n\n- Segment: Özel Bankacılık Elite Plus\n- Birikim Tutari: 7.5 Milyon TL ile 15 Milyon TL arasında",
+      "source_url": "https://tombankhadi.com/hadi-ozel-bankacilik/ozel-bankacilik-segmentlerimiz"
+    },
+    {
+      "title": "segment_kriterleri #3",
+      "category": "segment_kriterleri",
+      "content": "# segment_kriterleri #3\n\n- Segment: Özel Bankacılık Prestige\n- Birikim Tutari: 15 Milyon TL ve üzerinde",
+      "source_url": "https://tombankhadi.com/hadi-ozel-bankacilik/ozel-bankacilik-segmentlerimiz"
+    },
+    {
+      "title": "Segment Avantajlari",
+      "category": "segment_avantajlari",
+      "content": "# Segment Avantajlari\n\n- Özel Bankacılık Elite: {'ayricaliklar': ['Özel Müşteri Temsilcisi', \"Döviz ve Altın'da Tek Kur\"], 'kampanyalar': [{'kampanya_adi': 'Restoran Kampanyası', 'iade_orani': '%12,5', 'iade_tutari': 'Günde 500 TL, Ayda 5.000 TL'}, {'kampanya_adi': 'Uçak Bileti Kampanyası', 'iade_orani': '%12,5', 'iade_tutari': 'Günde 500 TL, Ayda 1.750 TL'}, {'kampanya_adi': 'Otopark Kampanyası', 'iade_orani': '%50', 'iade_tutari': 'Günde 500 TL, Ayda 1.500 TL'}]}\n- Özel Bankacılık Elite Plus: {'ayricaliklar': ['Özel Müşteri Temsilcisi', \"Döviz ve Altın'da Tek Kur\"], 'kampanyalar': [{'kampanya_adi': 'Restoran Kampanyası', 'iade_orani': '%17,5', 'iade_tutari': 'Günde 750 TL, Ayda 10.000 TL'}, {'kampanya_adi': 'Uçak Bileti Kampanyası', 'iade_orani': '%17,5', 'iade_tutari': 'Günde 750 TL, Ayda 3.500 TL'}, {'kampanya_adi': 'Otopark Kampanyası', 'iade_orani': '%50', 'iade_tutari': 'Günde 500 TL, Ayda 1.500 TL'}]}\n- Özel Bankacılık Prestige: {'ayricaliklar': ['Özel Müşteri Temsilcisi', \"Döviz ve Altın'da Tek Kur\"], 'kampanyalar': [{'kampanya_adi': 'Restoran Kampanyası', 'iade_orani': '%22,5', 'iade_tutari': 'Günde 1.250 TL, Ayda 10.000 TL'}, {'kampanya_adi': 'Uçak Bileti Kampanyası', 'iade_orani': '%22,5', 'iade_tutari': 'Günde 1.250 TL, Ayda 3.500 TL'}, {'kampanya_adi': 'Otopark Kampanyası', 'iade_orani': '%50', 'iade_tutari': 'Günde 500 TL, Ayda 1.500 TL'}]}",
+      "source_url": "https://tombankhadi.com/hadi-ozel-bankacilik/ozel-bankacilik-segmentlerimiz"
+    }
+  ]
+}

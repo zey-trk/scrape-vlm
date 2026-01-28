@@ -1,0 +1,90 @@
+{
+  "url": "https://tombankhadi.com/hadi-ozel-bankacilik/ozel-bankacilik-segmentlerimiz",
+  "instruction": "\n    Sayfadaki 'Segmentler Bazında Ayrıcalıklar ve Kazanımlar' tablosundan aşağıdaki bilgileri çıkar:\n    \n    1. Tüm kampanya isimlerini (örn: Restoran Kampanyası, Uçak Bileti Kampanyası, vb.)\n    2. Her kampanya için iade/indirim oranlarını\n    3. Elite, Elite Plus ve Prestige segmentleri için:\n       - İndirim/iade oranları\n       - Günlük limit\n       - Aylık limit (varsa)\n    \n    Sonucu aşağıdaki JSON yapısında döndür:\n    {\n        \"kampanyalar\": [\n            {\n                \"kampanya_adi\": \"...\",\n                \"elite\": {\"iade_orani\": \"...\", \"gunluk_limit\": \"...\", \"aylik_limit\": \"...\"},\n                \"elite_plus\": {\"iade_orani\": \"...\", \"gunluk_limit\": \"...\", \"aylik_limit\": \"...\"},\n                \"prestige\": {\"iade_orani\": \"...\", \"gunluk_limit\": \"...\", \"aylik_limit\": \"...\"}\n            }\n        ],\n        \"segment_kriterleri\": {\n            \"elite\": \"...\",\n            \"elite_plus\": \"...\",\n            \"prestige\": \"...\"\n        }\n    }\n    ",
+  "structured_data": {
+    "kampanyalar": [
+      {
+        "kampanya_adi": "Restoran Kampanyası",
+        "elite": {
+          "iade_orani": "%12,5",
+          "gunluk_limit": "Günde 500 TL",
+          "aylik_limit": "Ayda 5.000 TL"
+        },
+        "elite_plus": {
+          "iade_orani": "%17,5",
+          "gunluk_limit": "Günde 750 TL",
+          "aylik_limit": "Ayda 10.000 TL"
+        },
+        "prestige": {
+          "iade_orani": "%22,5",
+          "gunluk_limit": "Günde 1.250 TL",
+          "aylik_limit": "Ayda 10.000 TL"
+        }
+      },
+      {
+        "kampanya_adi": "Uçak Bileti Kampanyası",
+        "elite": {
+          "iade_orani": "%12,5",
+          "gunluk_limit": "Günde 500 TL",
+          "aylik_limit": "Ayda 1.750 TL"
+        },
+        "elite_plus": {
+          "iade_orani": "%17,5",
+          "gunluk_limit": "Günde 750 TL",
+          "aylik_limit": "Ayda 3.500 TL"
+        },
+        "prestige": {
+          "iade_orani": "%22,5",
+          "gunluk_limit": "Günde 1.250 TL",
+          "aylik_limit": "Ayda 3.500 TL"
+        }
+      },
+      {
+        "kampanya_adi": "Otopark Kampanyası",
+        "elite": {
+          "iade_orani": "%50",
+          "gunluk_limit": "Günde 500 TL",
+          "aylik_limit": "Ayda 1.500 TL"
+        },
+        "elite_plus": {
+          "iade_orani": "%50",
+          "gunluk_limit": "Günde 500 TL",
+          "aylik_limit": "Ayda 1.500 TL"
+        },
+        "prestige": {
+          "iade_orani": "%50",
+          "gunluk_limit": "Günde 500 TL",
+          "aylik_limit": "Ayda 1.500 TL"
+        }
+      }
+    ],
+    "segment_kriterleri": {
+      "elite": "2.5 Milyon TL ile 7.5 Milyon TL arasında",
+      "elite_plus": "7.5 Milyon TL ile 15 Milyon TL arasında",
+      "prestige": "15 Milyon TL ve üzerinde"
+    }
+  },
+  "raw_response": "{\n    \"kampanyalar\": [\n        {\n            \"kampanya_adi\": \"Restoran Kampanyası\",\n            \"elite\": {\n                \"iade_orani\": \"%12,5\",\n                \"gunluk_limit\": \"Günde 500 TL\",\n                \"aylik_limit\": \"Ayda 5.000 TL\"\n            },\n            \"elite_plus\": {\n                \"iade_orani\": \"%17,5\",\n                \"gunluk_limit\": \"Günde 750 TL\",\n                \"aylik_limit\": \"Ayda 10.000 TL\"\n            },\n            \"prestige\": {\n                \"iade_orani\": \"%22,5\",\n                \"gunluk_limit\": \"Günde 1.250 TL\",\n                \"aylik_limit\": \"Ayda 10.000 TL\"\n            }\n        },\n        {\n            \"kampanya_adi\": \"Uçak Bileti Kampanyası\",\n            \"elite\": {\n                \"iade_orani\": \"%12,5\",\n                \"gunluk_limit\": \"Günde 500 TL\",\n                \"aylik_limit\": \"Ayda 1.750 TL\"\n            },\n            \"elite_plus\": {\n                \"iade_orani\": \"%17,5\",\n                \"gunluk_limit\": \"Günde 750 TL\",\n                \"aylik_limit\": \"Ayda 3.500 TL\"\n            },\n            \"prestige\": {\n                \"iade_orani\": \"%22,5\",\n                \"gunluk_limit\": \"Günde 1.250 TL\",\n                \"aylik_limit\": \"Ayda 3.500 TL\"\n            }\n        },\n        {\n            \"kampanya_adi\": \"Otopark Kampanyası\",\n            \"elite\": {\n                \"iade_orani\": \"%50\",\n                \"gunluk_limit\": \"Günde 500 TL\",\n                \"aylik_limit\": \"Ayda 1.500 TL\"\n            },\n            \"elite_plus\": {\n                \"iade_orani\": \"%50\",\n                \"gunluk_limit\": \"Günde 500 TL\",\n                \"aylik_limit\": \"Ayda 1.500 TL\"\n            },\n            \"prestige\": {\n                \"iade_orani\": \"%50\",\n                \"gunluk_limit\": \"Günde 500 TL\",\n                \"aylik_limit\": \"Ayda 1.500 TL\"\n            }\n        }\n    ],\n    \"segment_kriterleri\": {\n        \"elite\": \"2.5 Milyon TL ile 7.5 Milyon TL arasında\",\n        \"elite_plus\": \"7.5 Milyon TL ile 15 Milyon TL arasında\",\n        \"prestige\": \"15 Milyon TL ve üzerinde\"\n    }\n}",
+  "usage": {
+    "prompt_tokens": 5799,
+    "completion_tokens": 636,
+    "total_tokens": 6435,
+    "cost": 0.00183469,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 7,
+      "audio_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00183469,
+      "upstream_inference_prompt_cost": 0.00127501,
+      "upstream_inference_completions_cost": 0.00055968
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "screenshot_path": "/Users/halitturk/Documents/Personel_Projects/web-scraping/hadi_scraper_crawl4ai/scrape_output/segment_campaigns.png",
+  "error": null
+}
